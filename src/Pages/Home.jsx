@@ -83,7 +83,7 @@ const Home = ()=>{
                 <div className="box-shadow-one">
                     <h3 style={{color: "#25A4AD"}}>Work Load</h3>
                     <p>Outward clothes promise at gravity do excited. Sufficient particular impossible by reasonable oh expression is. Yet preference connection unpleasant yet melancholy but end appearance.</p>
-                    <p style={{textDecoration: "underline", color: "#25A4AD", className: "p"}}>Learn More</p>
+                    <p style={{textDecoration: "underline", color: "#25A4AD", className: "p", id: "pee"}}>Learn More</p>
                 </div>
                 <div className="box-shadow-two">
                     <h3>Time Tracking</h3>
@@ -207,9 +207,9 @@ const Home = ()=>{
                 <button className="sched" style={{padding: "15px", marginTop: "50px"}}>Schedule demo</button>
                 </div>
                 <div className="footer-bottom">
-                    <div className="texts" id="new-class">
+                    <div className="texts">
                         <h2 style={{fontSize: "25px"}}>Payme</h2>
-                        <p style={{width: "250px"}}>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
+                        <p className="long-p" style={{width: "250px"}}>Crechterwoord K12 182 DK Alknjkcb, All Rights Reserved</p>
                     </div>
                     <div  className="texts">
                         <h4>Links</h4>
@@ -226,7 +226,7 @@ const Home = ()=>{
                     </div>
                     <div  className="texts">
                         <h4>Get in touch</h4>
-                        <p style={{width: "200px"}}>Crechterwoord K12 182 DK Alknjkcb</p>
+                        <p className="long-p" style={{width: "200px"}}>Crechterwoord K12 182 DK Alknjkcb</p>
                         <p>085-132567</p>
                         <p>info@payme.net</p>
                     </div>
