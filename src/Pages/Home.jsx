@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import girl from '../assets/girl.png'
 import logo from '../assets/logo.png'
-import cards from '../assets/services cards.png'
+import cards from '../assets/cards.png'
 import man from '../assets/man.png'
 import {RiStarSFill} from 'react-icons/ri'
 import {AiOutlineArrowRight, AiOutlineArrowLeft, AiFillCheckCircle} from 'react-icons/ai'
