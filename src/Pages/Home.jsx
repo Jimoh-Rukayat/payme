@@ -16,6 +16,9 @@ const Home = ()=>{
     const handleMobile = ()=>{
         setMobile(!mobile)
     }
+    const handleClose=()=>{
+        setMobile(false)
+    }
     return(
         <div className='grand-parent'>
         <div className='real-parent'>
@@ -25,14 +28,14 @@ const Home = ()=>{
             </div>
             <div className= {mobile? 'mobile-link' : 'naviga'}>
                 <div className='nav-one'>
-                    <Link to='/'>Home</Link>
-                    <Link to='/*'>About</Link>
-                    <Link to='/*'>Testimonials</Link>
-                    <Link to='/*'>Contact</Link>
+                    <Link to='/' onClick={handleClose}>Home</Link>
+                    <Link to='/' onClick={handleClose}>About</Link>
+                    <Link to='/' onClick={handleClose}>Testimonials</Link>
+                    <Link to='/' onClick={handleClose}>Contact</Link>
                 </div>
                 <div className='nav-two'>
-                    <button className='button-one'>Sign in</button>
-                    <button className='button-two'>Sign up</button>
+                    <button className='button-one' onClick={handleClose}>Sign in</button>
+                    <button className='button-two'onClick={handleClose}>Sign up</button>
                 </div>
             </div>
            

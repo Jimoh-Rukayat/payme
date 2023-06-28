@@ -218,6 +218,10 @@
     align-items: center;
    text-align: start;
    margin: 100px ;
+    width: 85%;
+}
+.client-real{
+    width: 40%;  
 }
 .best-text{
     width: 40%;
@@ -622,7 +626,9 @@ a{
         align-items: center;
        text-align: start;
        margin: 100px 40px;
-       width: 300px;
+    }
+    .client-real{
+        width: 360px;  
     }
     .best-text{
         width: 360px;
@@ -1061,7 +1067,9 @@ a{
         align-items: center;
        text-align: start;
        margin: 100px 40px;
-       width: 300px;
+    }
+    .client-real{
+        width: 360px;  
     }
     .best-text{
         width: 360px;
@@ -1557,11 +1565,15 @@ a{
         justify-content: center;
         align-items: center;
        text-align: start;
-       margin: 100px 40px;
-       width: 300px;
+       margin: 100px 20px;
+    }
+    .client-real{
+        height: 50;
+        position: relative;
+        right: 10%;
     }
     .best-text{
-        width: 360px;
+        width: 300px;
         height: 350px;
         margin: 25px;
        border-radius: 0px 0px 200px 0px;
@@ -1574,7 +1586,7 @@ a{
          font-family: 'Gilroy-Regular';
          color: #313131;
          font-size: 16px;
-         width: 85%;
+         width: 100%;
     }
     .robert-details{
         padding: 20px 0px;
